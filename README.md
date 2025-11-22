@@ -1,2 +1,4 @@
 # Bookify
-The prototype successfully powered the 1.54" e-paper display with the ESP32, showing test fonts and graphics. Output appears noisy with partial refresh issues, suggesting wiring or driver timing needs tuning. Still, the core hardware connections and display initialization are confirmed working.
+#### The prototype successfully powered the 1.54" e-paper display with the ESP32, showing test fonts and graphics. Output appears noisy with partial refresh issues, suggesting wiring or driver timing needs tuning. Still, the core hardware connections and display initialization are confirmed working.
+
+#### Since the 1.54" e-paper display has very limited resolution and screen area, rendering full text files is not practical—the text becomes unreadable and formatting breaks easily. Because of this, our prototype reads image-based pages and short text snippets instead of full TXT/PDF files. Converting content into small images or concise lines ensures proper visibility on the display and avoids refresh distortion. This approach allows smooth page loading, consistent rendering, and reliable navigation on a compact e-paper screen.
